@@ -1,0 +1,381 @@
+<!-- Modal login form Section -->
+<div id="login">
+  <div class="modal fade"  id="login-model" tabindex="-1" role="dialog" aria-labelledby="login-modelTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
+      <div class="modal-content" style="border-radius: 0px;">
+      
+       
+        <div class="">
+        
+          <section class="login-block">
+            <div class="row">
+              <div class="col-md-6 col-12 order-2 order-md-1 d-flex align-items-center" style="background-color: #272F3A;">
+              
+                <div class="container my-md-0 my-5 sign-in-sec text-center">
+                  <a class="navbar-brand mb-4" href="index.html"><img src="asset/img/WhatsApp Image 2022-02-17 at 10.45.21 AM.jpeg" alt=""></a>
+                  <h5>Welcome!</h5>
+                  <p>To keep connected with us please login with your personal</p>
+                 
+                  <!--  <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalCenter">
+        Sign up
+      </button> -->
+     
+                 </div> 
+              </div>
+              <div class="col-md-6 order-1 order-md-2 col-12">
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                  <span class="" aria-hidden="true">&times;</span>
+                </button>
+                <div class="row mt-4">
+                  <div class="col-md-12">
+                    <h3 class="r heading">Sign in</h3>
+                </div>
+                    <div class="col-sm-12">
+                        <form class="md-float-material form-material" action="#" method="POST">
+                            <div class="auth-box card">
+                              <div class="card-block">
+                              
+                                <div class="form-group form-primary"> <input type="text" class="form-control" name="email" value="" placeholder="Email Address" id="email"> </div>
+                                
+                                
+                                 <div class="form-group form-primary">
+                                   
+                                  <input type="password" class="form-control" name="password" placeholder="Password" value="" id="password"> </div>
+                                 
+                                 <div class="terms-condtions">
+                                   <div class="my-2 form-check d-flex flex-row"> <input class="form-check-input" type="checkbox" value="" id="services"> <label class="form-check-label ms-2" for="services"> I have agree to the <a href="">terms</a> & <a href="">privacy policy</a> </label> </div>
+                               </div>
+                                 <div class="row">
+                                     <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="Sign in"> <!-- <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="fa fa-lock"></i> Signup Now </button> -->
+                                     </div>
+                                 </div>
+                                  
+                                
+                             </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+               
+            
+        </section>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Register form Section -->
+
+<!-- Modal Register form Section -->
+<div id="register">
+  <div class="modal fade"  id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
+      <div class="modal-content" style="border-radius: 0px;">
+      
+       
+        <div class="">
+        
+          <section class="register-block">
+            <div class="row">
+              <div class="col-md-6 col-12 order-2 order-md-1 d-flex align-items-center" style=" background-image: linear-gradient(#95C530, #3A8D36);">
+              
+               <div class="container my-md-0 my-5 sign-in-sec text-center">
+                <h5>Welcome!</h5>
+                <p>To keep connected with us please login with your personal</p>
+                <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#login-model">
+                  Sign in
+                </button>
+               </div>  
+              </div>
+              <div class="col-md-6 order-1 order-md-2 col-12">
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                  <span class="" aria-hidden="true">&times;</span>
+                </button>
+                <div class="row mt-4">
+                  <div class="col-md-12">
+                    <h3 class="text-center heading">Create an Account</h3>
+                </div>
+                    <div class="col-sm-12">
+                        <form class="md-float-material form-material" action="#" method="POST">
+                            <div class="auth-box card">
+                                <div class="card-block">
+                                   <div class="row">
+                                    <div class="col-6">
+                                      <div class="form-group form-primary"> <input type="text" class="form-control" name="first_name" value="" placeholder="First Name" id="first_name"> </div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="form-group form-primary"> <input type="text" class="form-control" name="last_name" value="" placeholder="Last Name" id="first_name"> </div>
+                                    </div>
+                                   </div>
+                                   <div class="form-group form-primary"> <input type="text" class="form-control" name="email" value="" placeholder="Email Address" id="email"> </div>
+                                    <div class="form-group form-primary"> <input type="text" class="form-control" name="address" value="" placeholder="Address" id="first_name"> </div>
+                                    <div class="form-group form-primary"> <input type="text" class="form-control" name="town" value="" placeholder="Town/City" id="first_name"> </div>
+                                    <div class="form-group form-primary"> <input type="text" class="form-control" name="country" value="" placeholder="Country" id="first_name"> </div>
+                                   
+                                    <div class="form-group form-primary"> <input type="password" class="form-control" name="password" placeholder="Password" value="" id="password"> </div>
+                                    <div class="form-group form-primary"> <input type="password" class="form-control" name="password_confirm" placeholder="Confirm password" value="" id="password_confirm"> </div>
+                                    <div class="terms-condtions">
+                                      <div class="my-2 mr-auto form-check d-flex flex-row"> <input class="form-check-input" type="checkbox" value="" id="services"> <label class="form-check-label ms-2" for="services"> I have agree to the <a href="">terms</a> & <a href="">privacy policy</a> </label> </div>
+                                  </div>
+                                    <div class="row">
+                                        <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="Sign up"> <!-- <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="fa fa-lock"></i> Signup Now </button> -->
+                                        </div>
+                                    </div>
+                                     
+                                   
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+               
+            
+        </section>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Register form Section -->
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Register modal
+--------------------------------------------------------------*/
+#register .register-block {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+  }
+  #register .register-block .sign-in-sec {
+   color: #ffff;
+    
+  }
+  #register .register-block .sign-in-sec h5 {
+   margin-bottom: 40px;
+     
+   }
+   #register .register-block .sign-in-sec p {
+    margin-bottom: 30px;
+      
+    }
+  #register .register-block .sign-in-sec button {
+     border: 2px solid ;
+     transition: 1s;
+      border-radius: 5px;  
+      width: 70%;
+   }
+   
+   #register .modal-content .close {
+    padding: 0px 3px;
+   opacity: 1;
+   color: #fff;
+   background-color: red;
+  }
+  #register .card {
+    border-radius: 0px;
+    
+    border: none;
+    
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff
+  }
+  
+  #register .card .card-block {
+    padding: 1.25rem
+  }
+  
+  #register .f-80 {
+    font-size: 80px
+  }
+  
+  #register .form-group {
+    margin-bottom: 1.25em
+  }
+  
+  #register .form-material .form-control {
+    display: inline-block;
+    height: 43px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    padding: 9px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc
+  }
+  
+  #register .btn-md {
+    padding: 10px 16px;
+    font-size: 15px;
+    line-height: 23px
+  }
+  
+  #register .btn-primary {
+    background-color: #4099ff;
+    border-color: #4099ff;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s
+  }
+  
+  #register .btn {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer
+  }
+  
+  #register .terms-condtions {
+    font-size: 10px;
+   
+   }
+  
+  #register .btn-md {
+    padding: 10px 16px;
+    font-size: 15px;
+    line-height: 23px
+  }
+  
+  #register .heading {
+    font-size: 21px
+  }
+  
+  #register #infoMessage p {
+    color: red !important
+  }
+  /*--------------------------------------------------------------
+# Login modal
+--------------------------------------------------------------*/
+#login .login-block {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+  }
+  #login .login-block .sign-in-sec {
+   color: #ffff;
+    
+  }
+  #login .login-block .sign-in-sec h5 {
+   margin-bottom: 40px;
+     
+   }
+   #login .login-block .sign-in-sec p {
+    margin-bottom: 30px;
+      
+    }
+  #login .login-block .sign-in-sec button {
+     border: 2px solid ;
+     transition: 1s;
+      border-radius: 5px;  
+      width: 70%;
+   }
+   
+   #login .modal-content .close {
+ 
+   padding: 0px 3px;
+   opacity: 1;
+   color: #167073;
+  
+    
+  }
+  #login .card {
+    border-radius: 0px;
+    
+    border: none;
+    
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff
+  }
+  
+  #login .card .card-block {
+    padding: 1.25rem
+  }
+  
+  #login .f-80 {
+    font-size: 80px
+  }
+  
+  #login .form-group {
+    margin-bottom: 1.25em
+  }
+  
+  #login .form-material .form-control {
+    display: inline-block;
+    height: 43px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    padding: 9px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc
+  }
+  
+  #login .btn-md {
+    padding: 10px 16px;
+    font-size: 15px;
+    line-height: 23px
+  }
+  
+  #login .btn-primary {
+    background-color: #4099ff;
+    border-color: #4099ff;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s
+  }
+  
+  #login .btn {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer
+  }
+  
+  #login .terms-condtions {
+   font-size: 10px;
+  }
+  
+  #login .btn-md {
+    padding: 10px 16px;
+    font-size: 15px;
+    line-height: 23px
+  }
+  
+  #login .heading {
+    color:#167073 ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px
+  }
+  
+  #login #infoMessage p {
+    color: red !important
+  }
+  
