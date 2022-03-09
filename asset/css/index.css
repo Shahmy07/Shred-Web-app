@@ -7,20 +7,7 @@
     font-size: 19px;
 }
 
-#header #navbarNav li .btn-quote{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 18px;
-    background-color: #026467;
-    color: #ffff;
-    transition: 0.5s;
-    border: 2px solid #026467;
-}
-#header #navbarNav li .btn-quote:hover, .btn-login:hover{
-    color: #026467;
-    background-color: #93BFBE;
-    
-}
+
 #header #navbarNav li .btn-login{
     font-family: 'Roboto';
     font-weight: 500;
@@ -29,7 +16,7 @@
     color: #026467;
     transition: 0.5s;
 }
-#header #navbarNav li .btn-quote:hover, .btn-login:hover{
+#header #navbarNav li  .btn-login:hover{
     color: #026467;
     background-color: #93BFBE;
     
@@ -105,11 +92,24 @@ section .section-title p{
    font-size: large;
   margin-top: 20px;
   margin-bottom: 80px;
-  
+  }
+   .btn-gen{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #026467;
+    color: #ffff !important;
+    transition: 0.5s;
+    border: 2px solid #026467;
+}
+ .btn-gen:hover{
+    color: #026467;
+    background-color: #93BFBE;
+    
 }
 
   /*--------------------------------------------------------------
-# Section General
+# Section hire
 --------------------------------------------------------------*/
 
 #hire .hire-det{
