@@ -1,0 +1,19 @@
+#main{
+    font-family: 'Oswald', sans-serif; 
+}
+#header .path{
+    background-color: #F2EEED;
+    text-transform: uppercase;
+    color: #222B53;
+}
+  /*--------------------------------------------------------------
+# Section order confirmation
+--------------------------------------------------------------*/
+#o-confirmation .o-c-body{
+    background-color: #FFFFFF;
+}
+#o-confirmation .o-informations{
+    background-color: #EEF8F2;
+    color: #5b748d;
+    line-height: 30px;
+}
