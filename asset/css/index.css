@@ -93,7 +93,7 @@ section .section-title p{
   margin-top: 20px;
   margin-bottom: 80px;
   }
-   .btn-gen{
+    .btn-gen{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
@@ -102,7 +102,7 @@ section .section-title p{
     transition: 0.5s;
     border: 2px solid #026467;
 }
- .btn-gen:hover{
+  .btn-gen:hover{
     color: #026467;
     background-color: #93BFBE;
     
@@ -124,7 +124,7 @@ transition: 0.5s;
   border-image-source: linear-gradient(to left, #0F3D5B, #fff);
   background-image: conic-gradient(at 50% 55%, #E6EBEF 20deg, #E6EBEF 180deg, #E6EBEF 180deg, #E6EBEF 360deg);
   }
-#hire .hire-det h1{
+#hire .hire-det h2{
     text-transform: uppercase;
    font-weight: 700;
    font-family: 'Oswald', sans-serif;
@@ -206,18 +206,18 @@ transition: 0.5s;
  /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#login {
+#login-signup {
   font-family: 'Oswald', sans-serif;
 } 
-#login .form-group input{
+#login-signup .form-group input{
   border: 0;
-  border-radius: 0px;
+  
   background-color: #EDEDED;
 } 
-#login .form-group .remember{
+#login-signup .form-group .remember{
  color:#167073 ;
 } 
-#login #register-link input{
+#login-signup #register-link input{
  background-color: #026467;
  border-radius: 50px;
  } 

@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/index.css">
-    <link rel="stylesheet" href="asset/css/getquote.css">
+   
+    <link rel="stylesheet" href="asset/css/yourbasket.css">
     <title>Shred</title>
   </head>
   <body>
@@ -51,90 +52,39 @@
 
 <main id="main">
 
-<section class="getquote px-lg-5" id="getquote">
-<div class="container-fluid p-md-5 p-3" style="background-color: white;">
-    <div class="">
-        
-       
-        <div class="contact-form">
-            <h4 class="mb-3">Get in touch</h4>
-          <div class="form-group">
-            
-            <div class="">          
-                <select class="form-control gen-area" id="wastetype">
-                    <option>Select waste type</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-            </div>
-          </div>
-          <div class="form-group">
-            
-            <div class="">          
-                <select class="form-control gen-area" id="cfrequency">
-                    <option>Collection frequency</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-            </div>
-          </div>
-
-          <h4 class="mb-3 mt-4">Finish the form below</h4>
-          <div class="form-group">
-            
-            <div class="">
-            <input type="text" class="form-control gen-area" id="yname" placeholder="Your name" name="yname">
-            </div>
-          </div>
-          <div class="form-group">
-            
-            <div class="">
-            <input type="email" class="form-control gen-area" id="yemail" placeholder="Your email" name="yemail">
-            </div>
-          </div>
-          <div class="form-group">
-            
-            <div class="">
-            <input type="number" class="form-control gen-area" id="cnumber" placeholder="Contact number" name="cnumber">
-            </div>
-          </div>
-          <div class="form-group">
-            
-            <div class="">
-            <input type="text" class="form-control gen-area" id="address" placeholder="Address" name="address">
-            </div>
-          </div>
-          <div class="form-group">
-            
-            <div class="">
-            <input type="text" class="form-control gen-area" id="pcode" placeholder="Postal code" name="pcode">
-            </div>
-          </div>
-          <div class="form-group">
-            
-            <div class="">
-            <textarea class="form-control" placeholder="Tell us about your waste" style="border-radius: 0px;" rows="7" id="comment"></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <h6 class="text-muted">Upload file</h6>
-            <div class="file-box text-center ">
-              <input type="file" id="exampleInputFile" class="file-input">
-            <p class="help-block text-muted">Upload waste photo (Max 10MB)</p>
-            <label for="exampleInputFile" class="file-lablel btn btn-gen px-md-5">Upload</label>
-            </div>
+<section class="basket px-lg-5" id="basket">
+<div class="container-fluid p-md-5 p-4" style="background-color: white;">
+    <div class="row basket-det p-3">
+        <div class="col-md-5">
+            <h2>2 - 4 week bins</h2>
+            <img src="asset/img/Mask Group 135.png" class="img-fluid w-50" alt="">
         </div>
-          <div class="form-group mt-5">        
-            <div class="text-center">
-            <button type="submit" class="btn  mt-md-4 px-lg-5 btn-gen">Get quote</button>
-            </div>
-          </div>  
+        <div class="col-md-7 det pt-5">
+            <h4>Collect and Shred</h4>
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, fugiat cum cupiditate neque mollitia porro eligendi praesentium amet alias enim quaerat ullam, reiciendis voluptates aut soluta dolorem nobis. Sequi dolorem id dolor quia nostrum explicabo necessitatibus, unde quidem non quo, est, quaerat laboriosam sunt consequuntur dolorum eveniet facilis nobis porro. Dolorem pariatur cum placeat nihil architecto.</p>
+            <ul class="list" style="list-style: none;  ">
+                <li class="list-item">Cras justo odio</li>
+                <li class="list-item">Dapibus ac facilisis in</li>
+                <li class="list-item">Morbi leo risus</li>
+                <li class="list-item">Porta ac consectetur ac</li>
+                <li class="list-item">Vestibulum at eros</li>
+                <li class="list-item">Porta ac consectetur ac</li>
+                <li class="list-item">Vestibulum at eros</li>
+              </ul>
+              <h5 class="pl-4"><i class="fa fa-star mr-2" aria-hidden="true"></i> Paper only</h5>
+              <div class="special-item-pq text-center mt-3">
+                <form class="">
+                  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                  <input type="number" id="number" value="0" />
+                  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                </form>
+              </div>
+              <div class="mt-4 btn-price">
+                  <h3 class="mx-4">$ 75.00</h3>
+                <a class=" btn btn-gen mx-4 px-lg-5" href="#">Get Quote</a>
+              </div>
         </div>
-      </div>
+    </div> 
 </div>
 </section>
 </main>

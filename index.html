@@ -36,7 +36,7 @@
                   <a class="nav-link btn btn-gen px-lg-5" href="#">Get Quote</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-login px-lg-3 mt-3 mt-lg-0" type="button"  data-toggle="modal" data-target=".bd-example-modal-lg">Log in</a>
+                    <a class="nav-link btn btn-login px-lg-3 mt-3 mt-lg-0" type="button"  data-toggle="modal" data-target=".login-modal">Log in</a>
                   </li>
               </ul>
             </div>
@@ -78,7 +78,7 @@
                     <div class="hire-det  px-3 px-md-5 h-100">
                         <div class="row">
                             <div class="col-6 py-5">
-                                <h1>1 - 2 Weeks bin</h1>
+                                <h2>1 - 2 Weeks bin</h2>
                                 <ul class="list px-0 my-5" style="list-style: none; color: #026467;">
                                    <li class="list-item">Cras justo odio</li>
                                    <li class="list-item">Dapibus ac facilisis in</li>
@@ -101,7 +101,7 @@
                     <div class="hire-det  px-3 px-md-5 h-100">
                         <div class="row">
                             <div class="col-6 py-5">
-                                <h1>1 - 2 Weeks bin</h1>
+                                <h2>1 - 2 Weeks bin</h2>
                                 <ul class="list px-0 my-5" style="list-style: none; color: #026467;">
                                    <li class="list-item">Cras justo odio</li>
                                    <li class="list-item">Dapibus ac facilisis in</li>
@@ -177,12 +177,12 @@
 
  
 
-<div class="login" id="login">
-  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="login-signup" id="login-signup">
+  <div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
         <div class="row">
-          <div class="col-md-5" style="background-color: #272F3A; color: #ffffff; display:flex;
+          <div class="col-md-5 order-md-1 order-2" style="background-color: #272F3A; color: #ffffff; display:flex;
           align-items:center;"> 
             <div class="login-left text-center my-md-0 my-5">
               <a class="navbar-brand" href="index.html"><img src="asset/img/WhatsApp Image 2022-02-17 at 10.45.21 AM.jpeg" alt=""></a>
@@ -191,7 +191,10 @@
   
             </div>
           </div>
-          <div class="col-md-7 p-5" style="background-color: #ffffff;">
+          <div class="col-md-7 order-md-2 order-1 p-5" style="background-color: #ffffff;">
+            <button type="button" style="position: absolute; top: 0px; right: 7px;" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
             <form id="login-form" class="form" action="" method="post">
               <h3 class="mb-4" style="color: #167073;">Sign in</h3>
               <div class="form-group">
@@ -210,7 +213,7 @@
                 <input type="submit" name="submit" class="btn btn-info btn-md px-5" value="Log in">
               </div>
               <div class="text-center">
-                Don't have an account? <a href="">Signup</a>
+                Don't have an account? <a  href="" data-toggle="modal" data-target=".signup-modal">Signup</a>
               </div>
           </form>
           </div>
@@ -220,6 +223,62 @@
   </div>
 </div>
  
+
+<div class="login-signup" id="login-signup">
+  <div class="modal fade signup-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="row">
+          <div class="col-md-5 order-md-1 order-2" style="background-color: #272F3A; color: #ffffff; display:flex;
+          align-items:center;"> 
+            <div class="login-left text-center my-md-0 my-5">
+              <a class="navbar-brand" href="index.html"><img src="asset/img/WhatsApp Image 2022-02-17 at 10.45.21 AM.jpeg" alt=""></a>
+              <h3 class="my-2 my-md-4">Welcome to our site!</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+  
+            </div>
+          </div>
+          <div class="col-md-7 order-md-2 order-1 p-5" style="background-color: #ffffff;">
+            <button type="button" style="position: absolute; top: 0px; right: 7px;" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <form id="login-form" class="form" action="" method="post">
+              <h3 class="mb-4" style="color: #167073;">Sign up</h3>
+              <div class="form-group">
+                  <label for="fname" class="text-info">First name</label><br>
+                  <input type="text" name="fname" placeholder="First name" id="fname" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email" class="text-info">Email</label><br>
+                <input type="email" name="email" placeholder="Email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="c-email" class="text-info">Confirm email</label><br>
+              <input type="email" name="c-email" placeholder="Confirm email" id="c-email" class="form-control">
+          </div>
+            <div class="form-group">
+              <label for="password" class="text-info">Password</label><br>
+              <input type="text" name="password" placeholder="Password" id="password" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="c-password" class="text-info">Confirm Password</label><br>
+            <input type="text" name="c-password" placeholder="Confirm Password" id="c-password" class="form-control">
+        </div>
+              <div class="form-group">
+                  <label for="remember-me" class="text-info"><span><input id="remember-me" name="remember-me" type="checkbox"></span><span class="ml-2" style="color: black;">I agree to the <a href="">terms</a> and <a href="">privacy policy</a></span></label>
+                   
+              </div>
+              <div id="register-link" class=" ">
+                <input type="submit" name="submit" class="btn btn-info btn-md px-5" value="Sign up"> <span class="text-muted mx-3">or</span> <a href="">Log in</a>
+              </div>
+               
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
         <!-- ======= How we work Section ======= -->
