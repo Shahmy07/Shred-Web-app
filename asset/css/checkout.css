@@ -14,7 +14,7 @@
 height: 43px;
 border-radius: 0px;
 }
-#checkout .contact-form .btn-back{
+#checkout  .btn-back{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -23,7 +23,7 @@ border-radius: 0px;
     color: rgb(110, 110, 110);
     transition: 0.5s;
 }
-#checkout .contact-form  .btn-back:hover{
+#checkout   .btn-back:hover{
     color: #026467;
     background-color: #93BFBE;
     
@@ -105,3 +105,26 @@ border-radius: 0px;
     #checkout  .to-pay{
       border-right: 2px solid rgb(182, 177, 177);
       }
+
+
+    #checkout .bdp a {
+      color: #878786;
+      font-size: 20px;
+     background-color: #E6EBEF;
+      }
+    #checkout .bdp a:focus {
+      color: #026467;
+      border: 0px;
+      }
+      
+  #checkout .bdp a .fa-caret-up{
+    color: white;
+    font-size: 40px;
+   display: none;
+   margin-top: -15px;
+   margin-bottom: -20px;
+    }
+      #checkout .bdp a:focus .fa-caret-up{
+      
+        display: block;
+       }

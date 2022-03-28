@@ -56,16 +56,17 @@
     <div class="container-fluid p-md-5 p-3">
         <div class="row">
             <div class="col-xl-9">
-                <div class="bs-example">
-                    <ul class="nav nav-tabs">
+                <div class="bdp">
+                    <ul class="nav nav-tabs justify-content-center">
                         <li class="nav-item">
-                            <a href="#home" class="nav-link active" data-toggle="tab">Home</a>
+                            <a href="#home" class="nav-link active text-center" data-toggle="tab">Home  <i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                           
                         </li>
                         <li class="nav-item">
-                            <a href="#profile" class="nav-link" data-toggle="tab">Profile</a>
+                            <a href="#profile" class="nav-link text-center" data-toggle="tab">Profile <i class="fa fa-caret-up" aria-hidden="true"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#messages" class="nav-link" data-toggle="tab">Messages</a>
+                            <a href="#messages" class="nav-link text-center" data-toggle="tab">Messages <i class="fa fa-caret-up" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -299,7 +300,7 @@
                                        Credit Card
                                       </label>
                                     </div>
-                                    <div class="d-flex justify-content-center px-2 py-3 mt-2" style=" border: 2px solid rgb(99, 97, 97);">
+                                    <div class="d-flex justify-content-center px-2 py-3 mt-2" style=" border: 2px solid rgb(145, 142, 142);">
                                       <button class="btn p-0" >
                                         <img class="img-fluid" src="asset/img/Mask Group 130.png" alt="">
                                       </button>
@@ -318,7 +319,7 @@
                                        PayPal
                                       </label>
                                     </div>
-                                    <div class="d-flex  px-2 py-3 mt-2" style=" border: 2px solid rgb(99, 97, 97);">
+                                    <div class="d-flex  px-2 py-3 mt-2" style=" border: 2px solid rgb(145, 142, 142);">
                                       <button class="btn p-0" >
                                         <img class="img-fluid" src="asset/img/Mask Group 133.png" alt="">
                                       </button>
@@ -329,89 +330,75 @@
                                 </div>
                               </div>
                               <div class="col-md-8 p-details">
-                                <div class="contact-form">
+                                <div class="contact-form mt-4 mx-lg-5">
                                  <div class="text-center">
-                                  <h6 class="mb-3">CONTACT DETAILS</h6>
+                                  <h6 class="mb-5">Your Payment Details</h6>
                                  </div>
 
                                  <div class="form-group">
                                   
                                   <div class="">
-                                  <input type="text" class="form-control gen-area" id="address" placeholder="Address" name="address">
+                                    <label for="noc" class="">Name on card</label><br>
+                                  <input type="text" class="form-control gen-area" id="noc" placeholder="" name="noc">
+                                  </div>
+                                </div>
+                                <div class="form-group my-4">
+                                  
+                                  <div class="">
+                                    <label for="cnumber" class="">Card number</label><br>
+                                  <input type="text" class="form-control gen-area" id="cnumber" placeholder="" name="cnumber">
                                   </div>
                                 </div>
                                   <div class="form-group">
                                   <div class="row">
-                                      <div class="col">
+                                      <div class="col-6">
                                           <div class="">
-                                              <input type="text" class="form-control gen-area" id="fname" placeholder="First name" name="fname">
+                                            <label for="ex-date" class="">Expiry Date</label><br>
+                                            <select class="form-control gen-area" id="ex-date">
+                                              <option>12/ Dec</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                            </select>
                                               </div>
                                       </div>
-                                      <div class="col">
+                                      <div class="col-3">
                                           <div class="">
-                                              <input type="text" class="form-control gen-area" id="lname" placeholder="Last name" name="lname">
+                                            <label for="ex-date" class="">  &#8203</label><br>
+                                            <select class="form-control gen-area" id="ex-date">
+                                              <option>12/ Dec</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                            </select>
                                               </div>
                                       </div>
-                                      <div class="col">
+                                      <div class="col-3">
                                           <div class="">
-                                              <input type="text" class="form-control gen-area" id="cname" placeholder="Company name" name="cname">
+                                            <label for="cvv" class="">CVV</label><br>
+                                              <input type="text" class="form-control gen-area" id="cvv" placeholder="" name="cvv">
                                               </div>
                                       </div>
                                   </div>
                                     </div>
-                                    <div class="form-group">
-                                      <div class="row">
-                                          <div class="col">
-                                              <div class="">          
-                                                  <select class="form-control gen-area" id="country">
-                                                      <option>Country</option>
-                                                      <option>2</option>
-                                                      <option>3</option>
-                                                      <option>4</option>
-                                                      <option>5</option>
-                                                    </select>
-                                              </div>
-                                          </div>
-                                          <div class="col">
-                                              <div class="">
-                                                  <input type="text" class="form-control gen-area" id="town" placeholder="Town" name="town">
-                                                  </div>
-                                          </div>
-                                          <div class="col">
-                                              <div class="">
-                                                  <input type="text" class="form-control gen-area" id="pcode" placeholder="Post code" name="pcode">
-                                                  </div>
-                                          </div>
-                                      </div>
-                                        </div>
+                                    
 
                                        
 
-                                        <div class="form-group">
-                                          <div class="row">
-                                              <div class="col-4">
-                                                  <div class="">
-                                                      <input type="email" class="form-control gen-area" id="email" placeholder="Email address" name="email">
-                                                      </div>
-                                              </div>
-                                              <div class="col-4">
-                                                  <div class="">
-                                                      <input type="tel" class="form-control gen-area" id="phone" placeholder="Phone" name="phone">
-                                                      </div>
-                                              </div>
-                                              
-                                          </div>
-                                            </div>
+                                        
   
-                                <div class="form-group mt-4">        
-                                  <div class="d-flex">
-                                  <button type="button" class="btn  mt-md-4 px-lg-5 btn-back">Back</button>
-                                  <button type="button" class="btn  mt-md-4 ml-auto px-lg-5 btn-gen">Next</button>
-                                  </div>
-                                </div>  
+                                 
                               </div>
                               </div>
                              </div>
+                             <div class="form-group mt-4">        
+                              <div class="d-flex">
+                              <button type="button" class="btn  mt-md-4 px-lg-5 btn-back">Back</button>
+                              <button type="button" class="btn  mt-md-4 ml-auto px-lg-5 btn-gen">Next</button>
+                              </div>
+                            </div>  
                             </div>
                           </div>
                         
