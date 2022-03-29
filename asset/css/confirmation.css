@@ -9,6 +9,9 @@
   /*--------------------------------------------------------------
 # Section order confirmation
 --------------------------------------------------------------*/
+#o-confirmation{
+    padding-bottom: 70px;
+}
 #o-confirmation .o-c-body{
     background-color: #FFFFFF;
 }

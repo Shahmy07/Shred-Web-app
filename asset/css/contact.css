@@ -10,6 +10,9 @@
   /*--------------------------------------------------------------
 # Section getintouch
 --------------------------------------------------------------*/
+#getintouch{
+  padding-bottom: 70px;
+}
 #getintouch .contact-form .gen-area{
 height: 55px;
 border-radius: 0px;

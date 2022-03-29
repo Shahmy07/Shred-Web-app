@@ -10,6 +10,9 @@
   /*--------------------------------------------------------------
 # Section checkout
 --------------------------------------------------------------*/
+#checkout{
+  padding-bottom: 70px;
+}
 #checkout .contact-form .gen-area{
 height: 43px;
 border-radius: 0px;
@@ -28,7 +31,7 @@ border-radius: 0px;
     background-color: #93BFBE;
     
 }
-.special-item-pq .value-button {
+#checkout .special-item-pq .value-button {
     display: inline-block;
     border-radius: 0px;
     margin: 0px;
@@ -47,7 +50,7 @@ border-radius: 0px;
   }
   @media (max-width: 575px) {
   
-   .special-item-pq .value-button {
+   #checkout .special-item-pq .value-button {
      
      width: 15px;
      
@@ -55,26 +58,26 @@ border-radius: 0px;
   
  }
   
- .special-item-pq .value-button:hover {
+ #checkout .special-item-pq .value-button:hover {
     cursor: pointer;
   }
   
- .special-item-pq form #decrease {
+ #checkout .special-item-pq form #decrease {
     margin-right: -4px;
     
   }
   
- .special-item-pq form #increase {
+ #checkout .special-item-pq form #increase {
     margin-left: -4px;
     
   }
   
- .special-item-pq form #input-wrap {
+ #checkout .special-item-pq form #input-wrap {
     margin: 0px;
     padding: 0px;
   }
   
- .special-item-pq input#number {
+ #checkout .special-item-pq input#number {
     text-align: center;
     border: none;
   
@@ -83,7 +86,7 @@ border-radius: 0px;
     
   }
   
- .special-item-pq input[type=number]::-webkit-inner-spin-button,
+ #checkout .special-item-pq input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0;

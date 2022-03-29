@@ -1,16 +1,15 @@
 #main{
     font-family: 'Oswald', sans-serif; 
 }
-#header .path{
-    background-color: #F2EEED;
-    text-transform: uppercase;
-    color: #222B53;
-}
+ 
 
 
 /*--------------------------------------------------------------
 # Section getquote
 --------------------------------------------------------------*/
+#getquote{
+  padding-bottom: 70px;
+}
 #getquote .contact-form .gen-area{
     height: 55px;
     border-radius: 0px;

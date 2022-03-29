@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#header .navbar{
+  background-color:  #E6EBEF ;
+}
 #header #navbarNav li{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -19,7 +22,7 @@
 #header #navbarNav li  .btn-login:hover{
     color: #026467;
     background-color: #93BFBE;
-    
+   
 }
 /*--------------------------------------------------------------
 # Hero
@@ -74,8 +77,8 @@
 # Section General
 --------------------------------------------------------------*/
 section{
-    
-    
+    padding-top: 85px;
+   
     background-color: #E6EBEF;
 }
 section .section-title{
@@ -121,7 +124,7 @@ transition: 0.5s;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 1.8px;
-  border-image-source: linear-gradient(to left, #0F3D5B, #fff);
+  border-image-source: conic-gradient(at 50% 55%, #E6EBEF 20deg, #E6EBEF 180deg, #026467 180deg, #026467 360deg);
   background-image: conic-gradient(at 50% 55%, #E6EBEF 20deg, #E6EBEF 180deg, #E6EBEF 180deg, #E6EBEF 360deg);
   }
 #hire .hire-det h2{
@@ -156,7 +159,11 @@ transition: 0.5s;
  #testominals .testom-box{
    border: 2px solid #CED2D5;
    background-color: #F1F4F6;
+   transition: all ease-in-out 0.4s;
  }
+ #testominals .testom-box:hover{
+  transform: translateY(-10px);
+}
  #testominals .testom-box img{
  position: relative;
  top: -50px;
@@ -182,6 +189,9 @@ transition: 0.5s;
 /*--------------------------------------------------------------
 # How it works 
 --------------------------------------------------------------*/
+#how-works{
+  padding-bottom: 80px;
+}
 .how-works .img-box {
   
   
@@ -204,7 +214,7 @@ transition: 0.5s;
  }
 
  /*--------------------------------------------------------------
-# Footer
+# login & signup
 --------------------------------------------------------------*/
 #login-signup {
   font-family: 'Oswald', sans-serif;
